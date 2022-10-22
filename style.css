@@ -1,0 +1,113 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../a1-personal-portfolio-Hyejeong-A-Shin/background.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    align-items: center;
+    padding-top: 45px;
+    padding-left:9%;
+    padding-right:9%;
+}
+
+.name{
+    color: aliceblue;
+    font-size: 60px;
+    letter-spacing: 2px;
+    cursor:pointer;
+    font-weight:bold;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+nav ul li a:hover{
+    color:rgb(18, 46, 71);
+    transition: .3;
+}
+
+.about{
+    width: 100%;
+    padding: 50px 0px;
+    background-color:rgb(18, 46, 71, 0.5);
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+    border-radius: 50%;
+}
+
+.about-text{
+    width: 550px;
+    color:aliceblue;
+    padding: 50px;
+}
+
+.main{
+    width:1130px;
+    max-width:95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.resume{
+    width: 100%;
+    height:290px;
+    background:rgb(18, 46, 71);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.resume h2{
+    color:aliceblue;
+    font-size: 30px;
+    font-weight:bold;
+    margin-bottom: 40px;
+}
+
+.resume .button{
+    background-color:rgb(32, 42, 50);
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    align-items: center;
+}
+
+.resume .button::hover{
+    cursor:pointer;
+}
+
+@media screen and (max-width: 900px){
+    .main {display:block;}
+}
